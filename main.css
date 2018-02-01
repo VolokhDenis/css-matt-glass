@@ -1,0 +1,50 @@
+
+body {
+
+background-image: url('http://bit.ly/2gPLxZ4');
+
+background-size: cover;
+
+background-attachment: fixed;
+
+}
+div{
+	  width: 250px;
+
+  height: 350px;
+
+  top: 50px;
+
+  left: 50px;
+
+}
+.matt-glass {
+
+  background: inherit;
+
+
+  position: absolute;
+
+
+  overflow: hidden; /*добавил новое правило*/
+
+}
+.matt-glass:before {
+
+  content: '';
+
+  width: 120%;
+
+  height: 120%;
+
+  background: inherit;
+
+  position: absolute;
+
+  left: -10%;
+
+  top: -10%;
+
+  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.3);
+
+  filter: blur(10px);
